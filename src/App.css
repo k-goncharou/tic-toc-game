@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+.board {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 3px black solid;
+  margin: 30px auto;
+}
+
+.square {
+  border: 3px black solid;
+  cursor: pointer;
+  font-size:35px;
+  font-weight: 800;
+  width: 100px;
+  height: 100px;
+}
